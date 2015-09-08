@@ -1,0 +1,41 @@
+{
+  "name": "react-redux-universal",
+  "version": "1.0.0",
+  "description": "React and Redux universal rendering example",
+  "scripts": {
+    "build": "webpack",
+    "start": "node bin/server.js",
+    "develop": "webpack && node webpack.server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiriklv/react-redux-universal.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eiriklv/react-redux-universal/issues"
+  },
+  "dependencies": {
+    "babel": "5.8.x",
+    "express": "4.13.x",
+    "history": "^1.8.4",
+    "lodash": "^3.10.1",
+    "qs": "4.0.x",
+    "react": "0.13.x",
+    "react-formation": "eiriklv/react-formation",
+    "react-redux": "1.0.x",
+    "react-router": "1.0.0-beta4",
+    "redux": "1.0.x",
+    "redux-logger": "0.0.x",
+    "redux-thunk": "0.1.x",
+    "serve-static": "1.10.x"
+  },
+  "devDependencies": {
+    "babel-core": "5.8.x",
+    "babel-loader": "5.3.x",
+    "babel-runtime": "5.8.x",
+    "react-hot-loader": "1.2.x",
+    "webpack": "1.11.x",
+    "webpack-dev-server": "1.10.x"
+  }
+}
