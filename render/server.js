@@ -1,4 +1,3 @@
-import qs from 'qs';
 import React from 'react';
 import { Router } from 'react-router';
 import createLocation from 'history/lib/createLocation';
@@ -16,7 +15,6 @@ export default function(req, res) {
   let history = createHistory({
     getCurrentLocation: () => createLocation(req.path, {}, undefined, 'root')
   });
-  const params = qs.parse(req.query);
 
   /**
    * wrap everything below in an async function
